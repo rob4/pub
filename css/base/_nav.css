@@ -1,0 +1,66 @@
+.site-nav {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #000;
+  height: 0px;
+  overflow: hidden;
+}
+
+.site-nav ul {
+  list-style: none;
+}
+
+.site-nav li {
+  border-bottom: 1px solid #2d2d2d;
+}
+
+.site-nav:last-child {
+  border-bottom: none;
+}
+
+.site-nav a {
+  display: block;
+  padding: 25px 50px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  background: #f9f9f2;
+  color: #000;
+}
+
+
+/* hamburger menu */
+
+.menu-toggle {
+  padding: 15px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  display: block;
+  background-color: #fff;
+  height: 3px;
+  width: 30px;
+  border-radius: 3px;
+}
+
+.hamburger::before {
+  transform: translateY(-8px);
+}
+
+.hamburger::after {
+  transform: translateY(5px);
+}
+
+.site-nav--open {
+  height: auto;
+}

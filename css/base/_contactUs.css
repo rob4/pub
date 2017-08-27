@@ -1,0 +1,28 @@
+/* google map */
+
+#map {
+ height: 400px;
+ width: 50%;
+}
+
+/* felx container */
+
+.findus-wrapper {
+  top:50px;
+  border: 5px solid yellow;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.findus {
+flex: 1;
+flex-basis: 200px;
+}
+
+.address {
+  border: 5px solid red;
+}
+
+.tel-mail {
+  border: 5px solid green;
+}

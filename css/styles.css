@@ -1,3 +1,8 @@
 @import "normalize.css";
 @import "base/_footer";
 @import "base/_global";
+@import "base/_header";
+@import "base/_text.css";
+@import "base/_nav.css";
+@import "base/_contactUs";
+@import "base/_menu3";

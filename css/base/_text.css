@@ -1,0 +1,12 @@
+.main-text {
+color: #fff;
+font-family: 'Roboto', sans-serif;
+text-shadow: 1px 1px 4px #000;
+font-size: 2rem;
+}
+
+.title-text__wel {
+  color: #fff200;
+  font-family: 'Petit Formal Script', cursive;
+  text-shadow: 1px 1px 4px #000;
+}
